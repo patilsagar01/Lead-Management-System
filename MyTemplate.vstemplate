@@ -1,0 +1,212 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>client_LMS</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>client_LMS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MessageBox.cs">MessageBox.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BulkEmail.aspx">BulkEmail.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BulkEmail.aspx.cs">BulkEmail.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="calendar.html">calendar.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx">ChangePassword.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx.cs">ChangePassword.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="charts.aspx">charts.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="charts.aspx.cs">charts.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="charts.html">charts.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="charts.master">charts.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="charts.master.cs">charts.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact data.master">contact data.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact data.master.cs">contact data.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact master.master">contact master.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact master.master.cs">contact master.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.aspx">contact.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.aspx.cs">contact.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.html">contact.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contactdetail.aspx">contactdetail.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contactdetail.aspx.cs">contactdetail.aspx.cs</ProjectItem>
+      <Folder Name="css" TargetFolderName="css">
+        <ProjectItem ReplaceParameters="true" TargetFileName="basictable.css">basictable.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="circles.css">circles.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="component.css">component.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="export.css">export.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="flipclock.css">flipclock.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome.css">font-awesome.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jQuery-plugin-progressbar1.css">jQuery-plugin-progressbar1.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="monthly.css">monthly.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style_grid.css">style_grid.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="table-style.css">table-style.css</ProjectItem>
+      </Folder>
+      <Folder Name="css1" TargetFolderName="css1">
+        <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome.css">font-awesome.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      </Folder>
+      <Folder Name="css2" TargetFolderName="css2">
+        <ProjectItem ReplaceParameters="true" TargetFileName="montserrat-font.css">montserrat-font.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      </Folder>
+      <Folder Name="fonts" TargetFolderName="fonts">
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.eot">fontawesome-webfont.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.svg">fontawesome-webfont.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.ttf">fontawesome-webfont.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff">fontawesome-webfont.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff2">fontawesome-webfont.woff2</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="FontAwesome.otf">FontAwesome.otf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.eot">glyphicons-halflings-regular.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.svg">glyphicons-halflings-regular.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.ttf">glyphicons-halflings-regular.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff">glyphicons-halflings-regular.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff2">glyphicons-halflings-regular.woff2</ProjectItem>
+      </Folder>
+      <Folder Name="fonts1" TargetFolderName="fonts1">
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.eot">fontawesome-webfont.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.svg">fontawesome-webfont.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.ttf">fontawesome-webfont.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff">fontawesome-webfont.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff2">fontawesome-webfont.woff2</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="FontAwesome.otf">FontAwesome.otf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.eot">glyphicons-halflings-regular.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.svg">glyphicons-halflings-regular.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.ttf">glyphicons-halflings-regular.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff">glyphicons-halflings-regular.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff2">glyphicons-halflings-regular.woff2</ProjectItem>
+      </Folder>
+      <Folder Name="fonts2" TargetFolderName="fonts2">
+        <Folder Name="material-design-iconic-font" TargetFolderName="material-design-iconic-font">
+          <Folder Name="css" TargetFolderName="css">
+            <ProjectItem ReplaceParameters="true" TargetFileName="material-design-iconic-font.css">material-design-iconic-font.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="material-design-iconic-font.min.css">material-design-iconic-font.min.css</ProjectItem>
+          </Folder>
+          <Folder Name="fonts" TargetFolderName="fonts">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Material-Design-Iconic-Font.eot">Material-Design-Iconic-Font.eot</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Material-Design-Iconic-Font.svg">Material-Design-Iconic-Font.svg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Material-Design-Iconic-Font.ttf">Material-Design-Iconic-Font.ttf</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Material-Design-Iconic-Font.woff">Material-Design-Iconic-Font.woff</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Material-Design-Iconic-Font.woff2">Material-Design-Iconic-Font.woff2</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="Montserrat" TargetFolderName="Montserrat">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Black.ttf">Montserrat-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-BlackItalic.ttf">Montserrat-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Bold.ttf">Montserrat-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-BoldItalic.ttf">Montserrat-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-ExtraBold.ttf">Montserrat-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-ExtraBoldItalic.ttf">Montserrat-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-ExtraLight.ttf">Montserrat-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-ExtraLightItalic.ttf">Montserrat-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Italic.ttf">Montserrat-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Light.ttf">Montserrat-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-LightItalic.ttf">Montserrat-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Medium.ttf">Montserrat-Medium.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-MediumItalic.ttf">Montserrat-MediumItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Regular.ttf">Montserrat-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-SemiBold.ttf">Montserrat-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-SemiBoldItalic.ttf">Montserrat-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-Thin.ttf">Montserrat-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Montserrat-ThinItalic.ttf">Montserrat-ThinItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OFL.txt">OFL.txt</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="a1.jpg">a1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="a2.jpg">a2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="a3.jpg">a3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="a4.jpg">a4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="admin.jpg">admin.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom.jpg">bottom.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="overlay.png">overlay.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic.jpg">pic.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic1.jpg">pic1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="profile.jpg">profile.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="profile_bg.jpg">profile_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="progress.jpg">progress.jpg</ProjectItem>
+      </Folder>
+      <Folder Name="img" TargetFolderName="img">
+        <ProjectItem ReplaceParameters="false" TargetFileName="email.png">email.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="location.png">location.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="phone.png">phone.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="shape.png">shape.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.aspx">index.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.aspx.cs">index.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.master">index.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.master.cs">index.master.cs</ProjectItem>
+      <Folder Name="js" TargetFolderName="js">
+        <ProjectItem ReplaceParameters="true" TargetFileName="amcharts.js">amcharts.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bars.js">bars.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-3.1.1.min.js">bootstrap-3.1.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Chart.min.js">Chart.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="circles.js">circles.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="classie.js">classie.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="contact_me.js">contact_me.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="export.js">export.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="flipclock.js">flipclock.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="gauge.js">gauge.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="gnmenu.js">gnmenu.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jqBootstrapValidation.js">jqBootstrapValidation.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-2.1.4.min.js">jquery-2.1.4.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jQuery-plugin-progressbar.js">jQuery-plugin-progressbar.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.basictable.min.js">jquery.basictable.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.nicescroll.js">jquery.nicescroll.js</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="js">js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="light.js">light.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="modernizr.custom.js">modernizr.custom.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="monthly.js">monthly.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pie.js">pie.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="prettymaps.js">prettymaps.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="radar.js">radar.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="screenfull.js">screenfull.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="scripts.js">scripts.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="serial.js">serial.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="skycons.js">skycons.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="valida.2.1.6.min.js">valida.2.1.6.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="validator.min.js">validator.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="xy.js">xy.js</ProjectItem>
+      </Folder>
+      <Folder Name="js1" TargetFolderName="js1">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-2.1.4.min.js">jquery-2.1.4.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.vide.min.js">jquery.vide.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.aspx">logout.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.aspx.cs">logout.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main-page.aspx">main-page.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main-page.aspx.cs">main-page.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main-page.html">main-page.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main-page.master">main-page.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main-page.master.cs">main-page.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="maps.html">maps.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PasswordChanged.aspx">PasswordChanged.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PasswordChanged.aspx.cs">PasswordChanged.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="signup.aspx">signup.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="signup.aspx.cs">signup.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="signup.html">signup.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SweetAlert.js">SweetAlert.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="table.aspx">table.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="table.aspx.cs">table.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="table.master">table.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="table.master.cs">table.master.cs</ProjectItem>
+      <Folder Name="video" TargetFolderName="video">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Ipad.mp4">Ipad.mp4</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="website.publishproj">website.publishproj</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
