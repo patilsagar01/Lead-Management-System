@@ -9,7 +9,7 @@ Infrmation like **Email-ID,Contact Number,Address,Age and Country with country C
 in back-end and we use c# for making the connections beetween SQL server and Admin-Pannel.
    In that project we also provide bulk Email sending facility to Admin in that we can choose 1 or more Email ID's and write our Email and send them all selected ID's.
 And we also add charts to display all records for Admin and Admin can add 1 or more users for admin pannel.
-
+I also share SQL script for this Project.
 
 
 # **IF YOU CAN USE THIS PROJECT THEN YOU NEED TO INSTALL MS-SQL SERVER ALSO**
